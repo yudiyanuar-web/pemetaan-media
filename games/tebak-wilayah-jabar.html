@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tebak Wilayah Jawa Barat — Game Edukasi</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg-deep:#101A2C; --bg:#16233A; --card:#1E304C;
+    --gold:#D9A441; --teal:#4E9B84; --coral:#D9694F;
+    --text:#F1EFE7; --muted:#9FADC7; --line: rgba(234,238,231,0.14);
+  }
+  *{ box-sizing:border-box; }
+  body{
+    margin:0; min-height:100vh; display:flex; align-items:center; justify-content:center;
+    background:var(--bg-deep); color:var(--text);
+    font-family:'Inter',system-ui,sans-serif; padding:24px;
+  }
+  .game{ width:100%; max-width:480px; }
+  h1{
+    font-family:'Fraunces',serif; font-weight:700; font-size:1.5rem;
+    margin:0 0 4px; text-align:center;
+  }
+  .sub{ text-align:center; color:var(--muted); font-size:0.88rem; margin:0 0 22px; }
+
+  .hud{
+    display:flex; justify-content:space-between; font-size:0.85rem;
+    color:var(--muted); margin-bottom:10px;
+  }
+  .hud span{ color:var(--gold); font-weight:600; }
+
+  .card{
+    background:var(--card); border:1px solid var(--line); padding:22px;
+  }
+  .clue{ font-size:1.1rem; line-height:1.5; margin:0 0 20px; min-height:3.3em; }
+
+  .options{ display:grid; gap:10px; }
+  .opt{
+    background:var(--bg-deep); border:1px solid var(--line); color:var(--text);
+    padding:12px 14px; font-family:'Inter',sans-serif; font-size:0.95rem;
+    text-align:left; cursor:pointer;
+  }
+  .opt:hover{ border-color:var(--gold); }
+  .opt:focus-visible{ outline:2px solid var(--gold); }
+  .opt.correct{ border-color:var(--teal); background:rgba(78,155,132,0.18); }
+  .opt.wrong{ border-color:var(--coral); background:rgba(217,105,79,0.18); }
+  .opt:disabled{ cursor:default; }
+
+  .feedback{ min-height:1.4em; font-size:0.88rem; margin-top:14px; color:var(--muted); }
+
+  .next-btn{
+    margin-top:14px; width:100%; background:var(--gold); color:var(--bg-deep);
+    border:none; padding:11px; font-weight:700; font-family:'Inter',sans-serif;
+    cursor:pointer; display:none;
+  }
+  .next-btn.show{ display:block; }
+
+  .result{ text-align:center; }
+  .result .score{
+    font-family:'Fraunces',serif; font-weight:700; font-size:2.6rem; color:var(--gold);
+    margin:6px 0;
+  }
+  .result p{ color:var(--muted); margin:0 0 20px; }
+  .restart-btn{
+    background:var(--teal); color:var(--bg-deep); border:none; padding:11px 20px;
+    font-weight:700; font-family:'Inter',sans-serif; cursor:pointer;
+  }
+</style>
+</head>
+<body>
+
+<div class="game">
+  <h1>Tebak Wilayah Jawa Barat</h1>
+  <p class="sub">Contoh game edukasi ringan — cocok untuk mengisi gap media "Game Edukasi &amp; Simulasi"</p>
+
+  <div class="hud">
+    <span>Soal <span id="hud-current">1</span>/<span id="hud-total">-</span></span>
+    <span>Skor: <span id="hud-score">0</span></span>
+  </div>
+
+  <div class="card" id="card">
+    <p class="clue" id="clue">Memuat…</p>
+    <div class="options" id="options"></div>
+    <p class="feedback" id="feedback"></p>
+    <button class="next-btn" id="next-btn">Soal berikutnya</button>
+  </div>
+</div>
+
+<script>
+const QUESTIONS = [
+  { clue: "Kawah vulkanik dengan air berwarna putih kehijauan, terkenal jadi lokasi wisata dan riset geologi. Terletak di kaki Gunung Patuha.", answer: "Kab. Bandung", options: ["Kab. Bandung", "Kab. Garut", "Kab. Cianjur", "Kota Bandung"] },
+  { clue: "Gunung berapi aktif yang bisa dicapai langsung dengan kendaraan sampai dekat kawah, jadi ikon wisata alam sejak zaman kolonial.", answer: "Kab. Bandung Barat", options: ["Kab. Purwakarta", "Kab. Bandung Barat", "Kab. Subang", "Kab. Sumedang"] },
+  { clue: "Punya laguna hijau dan sungai yang sering disebut mirip hutan Amazon, populer untuk body rafting.", answer: "Kab. Pangandaran", options: ["Kab. Ciamis", "Kab. Tasikmalaya", "Kab. Pangandaran", "Kota Banjar"] },
+  { clue: "Kota pesisir utara dengan keraton bersejarah dan dikenal sebagai kota udang serta perpaduan budaya Jawa-Sunda-Tionghoa-Arab.", answer: "Kota Cirebon", options: ["Kota Cirebon", "Kab. Indramayu", "Kab. Cirebon", "Kab. Majalengka"] },
+  { clue: "Daerah penghasil kerajinan tangan dari kayu dan bambu, juga dikenal dengan wisata perbukitan serta waduknya.", answer: "Kab. Kuningan", options: ["Kab. Kuningan", "Kab. Majalengka", "Kab. Sumedang", "Kab. Garut"] },
+  { clue: "Terkenal sebagai sentra produksi tahu dan sumedal, juga rumah bagi kampus pertanian ternama.", answer: "Kab. Sumedang", options: ["Kab. Sumedang", "Kab. Garut", "Kab. Majalengka", "Kota Cimahi" ] },
+  { clue: "Kota yang jadi pusat industri tekstil dan dikenal dengan julukan kota kembang di masa lalu.", answer: "Kota Bandung", options: ["Kota Cimahi", "Kota Bandung", "Kab. Bandung", "Kota Depok"] },
+  { clue: "Wilayah pesisir yang jadi lumbung padi utama Jawa Barat, juga penghasil mangga gedong gincu.", answer: "Kab. Indramayu", options: ["Kab. Indramayu", "Kab. Karawang", "Kab. Subang", "Kab. Cirebon"] },
+  { clue: "Kota di jalur Puncak yang jadi persinggahan populer sebelum naik ke daerah pegunungan, terkenal dengan tauco dan produk kulitnya.", answer: "Kab. Cianjur", options: ["Kab. Sukabumi", "Kab. Bogor", "Kab. Cianjur", "Kab. Purwakarta"] },
+  { clue: "Kota di kaki Gunung Galunggung, dikenal dengan kerajinan payung geulis dan bordir.", answer: "Kota Tasikmalaya", options: ["Kota Tasikmalaya", "Kab. Tasikmalaya", "Kab. Ciamis", "Kota Banjar"] }
+];
+
+let order = [], idx = 0, score = 0, answered = false;
+
+function shuffle(arr){
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+function start(){
+  order = shuffle(QUESTIONS);
+  idx = 0; score = 0; answered = false;
+  document.getElementById("hud-total").textContent = order.length;
+  document.getElementById("hud-score").textContent = score;
+  renderQuestion();
+}
+
+function renderQuestion(){
+  answered = false;
+  const q = order[idx];
+  document.getElementById("hud-current").textContent = idx + 1;
+  document.getElementById("clue").textContent = q.clue;
+  document.getElementById("feedback").textContent = "";
+  document.getElementById("next-btn").classList.remove("show");
+
+  const optsBox = document.getElementById("options");
+  optsBox.innerHTML = "";
+  shuffle(q.options).forEach(opt => {
+    const btn = document.createElement("button");
+    btn.className = "opt";
+    btn.textContent = opt;
+    btn.addEventListener("click", () => selectAnswer(btn, opt, q.answer));
+    optsBox.appendChild(btn);
+  });
+}
+
+function selectAnswer(btn, chosen, correctAnswer){
+  if (answered) return;
+  answered = true;
+
+  document.querySelectorAll(".opt").forEach(el => {
+    el.disabled = true;
+    if (el.textContent === correctAnswer) el.classList.add("correct");
+  });
+
+  const feedback = document.getElementById("feedback");
+  if (chosen === correctAnswer) {
+    score++;
+    btn.classList.add("correct");
+    feedback.textContent = "Benar!";
+  } else {
+    btn.classList.add("wrong");
+    feedback.textContent = `Kurang tepat. Jawaban: ${correctAnswer}`;
+  }
+  document.getElementById("hud-score").textContent = score;
+  document.getElementById("next-btn").classList.add("show");
+}
+
+document.getElementById("next-btn").addEventListener("click", () => {
+  idx++;
+  if (idx < order.length) {
+    renderQuestion();
+  } else {
+    showResult();
+  }
+});
+
+function showResult(){
+  const card = document.getElementById("card");
+  card.innerHTML = `
+    <div class="result">
+      <p>Skor akhir kamu</p>
+      <div class="score">${score}/${order.length}</div>
+      <p>dari ${order.length} soal tentang wilayah Jawa Barat</p>
+      <button class="restart-btn" id="restart-btn">Main lagi</button>
+    </div>
+  `;
+  document.getElementById("restart-btn").addEventListener("click", start);
+}
+
+start();
+</script>
+</body>
+</html>

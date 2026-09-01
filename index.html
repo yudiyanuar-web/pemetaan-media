@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pemetaan Media Pembelajaran — Jawa Barat</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<div class="page">
+
+  <header class="hero">
+    <div class="hero-top">
+      <span class="eyebrow-mark">BBGTK Jawa Barat</span>
+      <nav class="hero-nav">
+        <a href="#peta">Peta Wilayah</a>
+        <a href="#kebutuhan">Kebutuhan &amp; Penggunaan</a>
+        <a href="#kurasi">Kurasi Media</a>
+      </nav>
+    </div>
+    <h1>Pemetaan Media Pembelajaran<br>Provinsi Jawa Barat</h1>
+    <p class="hero-sub">Gambaran kebutuhan dan penggunaan media pembelajaran di 27 kabupaten/kota, sebagai dasar menentukan media apa yang perlu dikembangkan lebih dulu.</p>
+
+    <div class="stat-row">
+      <div class="stat stat-big">
+        <span class="stat-value" id="stat-total-wilayah">—</span>
+        <span class="stat-label">kabupaten/kota terpetakan</span>
+      </div>
+      <div class="stat">
+        <span class="stat-value" id="stat-avg-gap">—</span>
+        <span class="stat-label">rata-rata kesenjangan kebutuhan vs penggunaan</span>
+      </div>
+      <div class="stat">
+        <span class="stat-value" id="stat-top-media">—</span>
+        <span class="stat-label">jenis media dengan gap tertinggi se-provinsi</span>
+      </div>
+      <div class="stat">
+        <span class="stat-value" id="stat-top-region">—</span>
+        <span class="stat-label">wilayah dengan prioritas pengembangan tertinggi</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="layout" id="peta">
+
+    <section class="panel region-panel">
+      <div class="panel-head">
+        <h2>Pilih wilayah</h2>
+        <p class="panel-hint">Klik nama kabupaten/kota untuk melihat saran media yang perlu dikembangkan.</p>
+      </div>
+      <div class="region-search">
+        <input type="text" id="region-search" placeholder="Cari kabupaten/kota…" autocomplete="off">
+      </div>
+      <ul class="region-list" id="region-list"><!-- diisi oleh script.js --></ul>
+    </section>
+
+    <section class="panel detail-panel" id="detail-panel">
+      <div class="detail-empty" id="detail-empty">
+        <p>Belum ada wilayah dipilih.</p>
+        <p class="muted">Pilih salah satu kabupaten/kota di sebelah kiri untuk melihat rincian kebutuhan, penggunaan, dan rekomendasi pengembangan media.</p>
+      </div>
+
+      <div class="detail-content" id="detail-content" hidden>
+        <div class="detail-head">
+          <div>
+            <span class="detail-kicker" id="detail-signal">—</span>
+            <h2 id="detail-name">—</h2>
+          </div>
+          <div class="detail-gap" id="detail-gap-badge">—</div>
+        </div>
+
+        <div class="chart-wrap">
+          <canvas id="detail-chart" height="220"></canvas>
+        </div>
+
+        <div class="reco" id="detail-reco">
+          <h3>Media yang disarankan untuk dikembangkan</h3>
+          <ol class="reco-list" id="reco-list"><!-- diisi oleh script.js --></ol>
+        </div>
+
+        <div class="ai-block">
+          <div class="ai-head">
+            <h3>Ide kreatif dari AI</h3>
+            <button type="button" class="ai-btn" id="ai-btn">Buatkan ide media</button>
+          </div>
+          <p class="panel-hint ai-hint">Berdasarkan data gap di atas, AI akan mengusulkan bentuk media yang konkret — misalnya game sederhana, simulasi interaktif, atau format lain yang cocok untuk jenis media dengan gap tertinggi.</p>
+          <div class="ai-result" id="ai-result" hidden></div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <section class="panel wide-panel" id="kebutuhan">
+    <div class="panel-head">
+      <h2>Kebutuhan vs Penggunaan — seluruh provinsi</h2>
+      <p class="panel-hint">Rata-rata tiap jenis media, dibandingkan di semua kabupaten/kota.</p>
+    </div>
+    <div class="chart-wrap">
+      <canvas id="province-chart" height="140"></canvas>
+    </div>
+  </section>
+
+  <section class="panel wide-panel" id="kurasi">
+    <div class="panel-head">
+      <h2>Sumber &amp; kurasi</h2>
+    </div>
+    <p class="muted">
+      Prototipe ini memakai data contoh (lihat <code>data/media-mapping.json</code>) yang meniru struktur data pemetaan asli.
+      Untuk versi produksi, ganti isi file tersebut dengan hasil rekap kebutuhan &amp; penggunaan media yang sebenarnya,
+      lalu tautkan pustaka media/kurasi video pada bagian ini.
+    </p>
+
+    <div class="game-showcase">
+      <div class="game-showcase-text">
+        <h3>Contoh: game edukasi siap pakai</h3>
+        <p class="muted">Dibuat sekali lewat AI (Claude), direview, lalu disimpan sebagai file statis — bukan digenerate ulang tiap ada pengunjung. Ini pola yang disarankan untuk mengisi gap media "Game Edukasi &amp; Simulasi".</p>
+      </div>
+      <a class="game-link" href="games/tebak-wilayah-jabar.html" target="_blank" rel="noopener">
+        Coba game "Tebak Wilayah Jawa Barat" ↗
+      </a>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    Prototipe tampilan — Pemetaan Media Pembelajaran Jawa Barat · dibangun ulang dari dashboard versi 1.0 (Nov 2024)
+  </footer>
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.4/chart.umd.min.js"></script>
+<script src="assets/config.js"></script>
+<script src="assets/script.js"></script>
+</body>
+</html>
