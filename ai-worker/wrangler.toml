@@ -1,6 +1,0 @@
-name = "ecc-jabar-ai"
-main = "worker.js"
-compatibility_date = "2025-01-01"
-
-# Simpan API key sebagai secret, JANGAN ditulis di sini:
-#   wrangler secret put ANTHROPIC_API_KEY
