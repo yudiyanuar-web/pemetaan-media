@@ -1,0 +1,596 @@
+{
+  "kab-purwakarta": {
+    "region": "Kab. Purwakarta",
+    "generatedAt": "2026-09-02T00:00:00Z",
+    "model": "claude (seed manual, lihat catatan di README)",
+    "ideas": [
+      {
+        "title": "Game kuis edukasi berbasis browser",
+        "format": "Game HTML5 ringan, main langsung di browser",
+        "description": "Game edukasi sederhana untuk Kab. Purwakarta, dikemas sebagai kuis bertingkat agar belajar terasa lebih menyenangkan. (menutup gap 61 poin pada Game Edukasi & Simulasi)."
+      },
+      {
+        "title": "Modul web interaktif ringan",
+        "format": "Modul HTML5 dengan kuis & umpan balik",
+        "description": "Modul interaktif untuk Kab. Purwakarta yang menyertakan kuis singkat di tiap bagian supaya siswa langsung tahu sejauh mana paham materi. (menutup gap 34 poin pada Modul Interaktif / E-learning)."
+      },
+      {
+        "title": "Lembar kerja & modul cetak ringkas",
+        "format": "Booklet A5, 8-12 halaman per topik",
+        "description": "Materi cetak ringkas untuk Kab. Purwakarta, memudahkan distribusi ke sekolah dan dipakai sebagai latihan tertulis pendamping. (menutup gap 31 poin pada Media Cetak)."
+      }
+    ]
+  },
+  "kab-karawang": {
+    "region": "Kab. Karawang",
+    "generatedAt": "2026-09-02T00:00:00Z",
+    "model": "claude (seed manual, lihat catatan di README)",
+    "ideas": [
+      {
+        "title": "Audio pembelajaran berseri",
+        "format": "Audio 5-10 menit, format tanya-jawab",
+        "description": "Podcast singkat untuk Kab. Karawang yang bisa didengarkan berulang, cocok untuk pengulangan materi di luar jam sekolah. (menutup gap 47 poin pada Podcast / Audio Pembelajaran)."
+      },
+      {
+        "title": "Video pendek berseri, bisa diunduh",
+        "format": "Video 3-5 menit per topik",
+        "description": "Video ringkas per sub-topik untuk Kab. Karawang, dirancang agar mudah diunduh dan ditonton ulang saat belajar mandiri. (menutup gap 38 poin pada Video Pembelajaran)."
+      },
+      {
+        "title": "Lembar kerja & modul cetak ringkas",
+        "format": "Booklet A5, 8-12 halaman per topik",
+        "description": "Materi cetak ringkas untuk Kab. Karawang, memudahkan distribusi ke sekolah dan dipakai sebagai latihan tertulis pendamping. (menutup gap 38 poin pada Media Cetak)."
+      }
+    ]
+  },
+  "kab-cianjur": {
+    "region": "Kab. Cianjur",
+    "generatedAt": "2026-09-02T00:00:00Z",
+    "model": "claude (seed manual, lihat catatan di README)",
+    "ideas": [
+      {
+        "title": "Video pendek berseri, bisa diunduh",
+        "format": "Video 3-5 menit per topik",
+        "description": "Video ringkas per sub-topik untuk Kab. Cianjur, dirancang agar mudah diunduh dan ditonton ulang saat belajar mandiri. (menutup gap 50 poin pada Video Pembelajaran)."
+      },
+      {
+        "title": "Audio pembelajaran berseri",
+        "format": "Audio 5-10 menit, format tanya-jawab",
+        "description": "Podcast singkat untuk Kab. Cianjur yang bisa didengarkan berulang, cocok untuk pengulangan materi di luar jam sekolah. (menutup gap 42 poin pada Podcast / Audio Pembelajaran)."
+      },
+      {
+        "title": "Game kuis edukasi berbasis browser",
+        "format": "Game HTML5 ringan, main langsung di browser",
+        "description": "Game edukasi sederhana untuk Kab. Cianjur, dikemas sebagai kuis bertingkat agar belajar terasa lebih menyenangkan. (menutup gap 31 poin pada Game Edukasi & Simulasi)."
+      }
+    ]
+  },
+  "kab-indramayu": {
+    "region": "Kab. Indramayu",
+    "generatedAt": "2026-09-02T00:00:00Z",
+    "model": "claude (seed manual, lihat catatan di README)",
+    "ideas": [
+      {
+        "title": "Modul web interaktif ringan",
+        "format": "Modul HTML5 dengan kuis & umpan balik",
+        "description": "Modul interaktif untuk Kab. Indramayu yang menyertakan kuis singkat di tiap bagian supaya siswa langsung tahu sejauh mana paham materi. (menutup gap 52 poin pada Modul Interaktif / E-learning)."
+      },
+      {
+        "title": "Audio pembelajaran berseri",
+        "format": "Audio 5-10 menit, format tanya-jawab",
+        "description": "Podcast singkat untuk Kab. Indramayu yang bisa didengarkan berulang, cocok untuk pengulangan materi di luar jam sekolah. (menutup gap 48 poin pada Podcast / Audio Pembelajaran)."
+      },
+      {
+        "title": "Video pendek berseri, bisa diunduh",
+        "format": "Video 3-5 menit per topik",
+        "description": "Video ringkas per sub-topik untuk Kab. Indramayu, dirancang agar mudah diunduh dan ditonton ulang saat belajar mandiri. (menutup gap 25 poin pada Video Pembelajaran)."
+      }
+    ]
+  },
+  "kab-bogor": {
+    "region": "Kab. Bogor",
+    "generatedAt": "2026-09-02T00:00:00Z",
+    "model": "claude (seed manual, lihat catatan di README)",
+    "ideas": [
+      {
+        "title": "Audio pembelajaran berseri",
+        "format": "Audio 5-10 menit, format tanya-jawab",
+        "description": "Podcast singkat untuk Kab. Bogor yang bisa didengarkan berulang, cocok untuk pengulangan materi di luar jam sekolah. (menutup gap 55 poin pada Podcast / Audio Pembelajaran)."
+      },
+      {
+        "title": "Modul web interaktif ringan",
+        "format": "Modul HTML5 dengan kuis & umpan balik",
+        "description": "Modul interaktif untuk Kab. Bogor yang menyertakan kuis singkat di tiap bagian supaya siswa langsung tahu sejauh mana paham materi. (menutup gap 27 poin pada Modul Interaktif / E-learning)."
+      },
+      {
+        "title": "Lembar kerja & modul cetak ringkas",
+        "format": "Booklet A5, 8-12 halaman per topik",
+        "description": "Materi cetak ringkas untuk Kab. Bogor, memudahkan distribusi ke sekolah dan dipakai sebagai latihan tertulis pendamping. (menutup gap 22 poin pada Media Cetak)."
+      }
+    ]
+  },
+  "kab-sumedang": {
+    "region": "Kab. Sumedang",
+    "generatedAt": "2026-09-02T00:00:00Z",
+    "model": "claude (seed manual, lihat catatan di README)",
+    "ideas": [
+      {
+        "title": "Audio pembelajaran berseri",
+        "format": "Audio 5-10 menit, format tanya-jawab",
+        "description": "Podcast singkat untuk Kab. Sumedang yang bisa didengarkan berulang, cocok untuk pengulangan materi di luar jam sekolah. (menutup gap 52 poin pada Podcast / Audio Pembelajaran)."
+      },
+      {
+        "title": "Modul web interaktif ringan",
+        "format": "Modul HTML5 dengan kuis & umpan balik",
+        "description": "Modul interaktif untuk Kab. Sumedang yang menyertakan kuis singkat di tiap bagian supaya siswa langsung tahu sejauh mana paham materi. (menutup gap 34 poin pada Modul Interaktif / E-learning)."
+      },
+      {
+        "title": "Video pendek berseri, bisa diunduh",
+        "format": "Video 3-5 menit per topik",
+        "description": "Video ringkas per sub-topik untuk Kab. Sumedang, dirancang agar mudah diunduh dan ditonton ulang saat belajar mandiri. (menutup gap 22 poin pada Video Pembelajaran)."
+      }
+    ]
+  },
+  "kab-bandung": {
+    "region": "Kab. Bandung",
+    "generatedAt": "2026-09-02T00:00:00Z",
+    "model": "claude (seed manual, lihat catatan di README)",
+    "ideas": [
+      {
+        "title": "Lembar kerja & modul cetak ringkas",
+        "format": "Booklet A5, 8-12 halaman per topik",
+        "description": "Materi cetak ringkas untuk Kab. Bandung, memudahkan distribusi ke sekolah dan dipakai sebagai latihan tertulis pendamping. (menutup gap 59 poin pada Media Cetak)."
+      },
+      {
+        "title": "Modul web interaktif ringan",
+        "format": "Modul HTML5 dengan kuis & umpan balik",
+        "description": "Modul interaktif untuk Kab. Bandung yang menyertakan kuis singkat di tiap bagian supaya siswa langsung tahu sejauh mana paham materi. (menutup gap 45 poin pada Modul Interaktif / E-learning)."
+      },
+      {
+        "title": "Audio pembelajaran berseri",
+        "format": "Audio 5-10 menit, format tanya-jawab",
+        "description": "Podcast singkat untuk Kab. Bandung yang bisa didengarkan berulang, cocok untuk pengulangan materi di luar jam sekolah. (menutup gap 24 poin pada Podcast / Audio Pembelajaran)."
+      }
+    ]
+  },
+  "kab-cirebon": {
+    "region": "Kab. Cirebon",
+    "generatedAt": "2026-09-02T00:00:00Z",
+    "model": "claude (seed manual, lihat catatan di README)",
+    "ideas": [
+      {
+        "title": "Audio pembelajaran berseri",
+        "format": "Audio 5-10 menit, format tanya-jawab",
+        "description": "Podcast singkat untuk Kab. Cirebon yang bisa didengarkan berulang, cocok untuk pengulangan materi di luar jam sekolah. (menutup gap 52 poin pada Podcast / Audio Pembelajaran)."
+      },
+      {
+        "title": "Game kuis edukasi berbasis browser",
+        "format": "Game HTML5 ringan, main langsung di browser",
+        "description": "Game edukasi sederhana untuk Kab. Cirebon, dikemas sebagai kuis bertingkat agar belajar terasa lebih menyenangkan. (menutup gap 36 poin pada Game Edukasi & Simulasi)."
+      },
+      {
+        "title": "Lembar kerja & modul cetak ringkas",
+        "format": "Booklet A5, 8-12 halaman per topik",
+        "description": "Materi cetak ringkas untuk Kab. Cirebon, memudahkan distribusi ke sekolah dan dipakai sebagai latihan tertulis pendamping. (menutup gap 32 poin pada Media Cetak)."
+      }
+    ]
+  },
+  "kab-subang": {
+    "region": "Kab. Subang",
+    "generatedAt": "2026-09-02T00:00:00Z",
+    "model": "claude (seed manual, lihat catatan di README)",
+    "ideas": [
+      {
+        "title": "Lembar kerja & modul cetak ringkas",
+        "format": "Booklet A5, 8-12 halaman per topik",
+        "description": "Materi cetak ringkas untuk Kab. Subang, memudahkan distribusi ke sekolah dan dipakai sebagai latihan tertulis pendamping. (menutup gap 48 poin pada Media Cetak)."
+      },
+      {
+        "title": "Audio pembelajaran berseri",
+        "format": "Audio 5-10 menit, format tanya-jawab",
+        "description": "Podcast singkat untuk Kab. Subang yang bisa didengarkan berulang, cocok untuk pengulangan materi di luar jam sekolah. (menutup gap 30 poin pada Podcast / Audio Pembelajaran)."
+      },
+      {
+        "title": "Modul web interaktif ringan",
+        "format": "Modul HTML5 dengan kuis & umpan balik",
+        "description": "Modul interaktif untuk Kab. Subang yang menyertakan kuis singkat di tiap bagian supaya siswa langsung tahu sejauh mana paham materi. (menutup gap 22 poin pada Modul Interaktif / E-learning)."
+      }
+    ]
+  },
+  "kab-bekasi": {
+    "region": "Kab. Bekasi",
+    "generatedAt": "2026-09-02T00:00:00Z",
+    "model": "claude (seed manual, lihat catatan di README)",
+    "ideas": [
+      {
+        "title": "Lembar kerja & modul cetak ringkas",
+        "format": "Booklet A5, 8-12 halaman per topik",
+        "description": "Materi cetak ringkas untuk Kab. Bekasi, memudahkan distribusi ke sekolah dan dipakai sebagai latihan tertulis pendamping. (menutup gap 50 poin pada Media Cetak)."
+      },
+      {
+        "title": "Game kuis edukasi berbasis browser",
+        "format": "Game HTML5 ringan, main langsung di browser",
+        "description": "Game edukasi sederhana untuk Kab. Bekasi, dikemas sebagai kuis bertingkat agar belajar terasa lebih menyenangkan. (menutup gap 38 poin pada Game Edukasi & Simulasi)."
+      },
+      {
+        "title": "Video pendek berseri, bisa diunduh",
+        "format": "Video 3-5 menit per topik",
+        "description": "Video ringkas per sub-topik untuk Kab. Bekasi, dirancang agar mudah diunduh dan ditonton ulang saat belajar mandiri. (menutup gap 24 poin pada Video Pembelajaran)."
+      }
+    ]
+  },
+  "kab-kuningan": {
+    "region": "Kab. Kuningan",
+    "generatedAt": "2026-09-02T00:00:00Z",
+    "model": "claude (seed manual, lihat catatan di README)",
+    "ideas": [
+      {
+        "title": "Lembar kerja & modul cetak ringkas",
+        "format": "Booklet A5, 8-12 halaman per topik",
+        "description": "Materi cetak ringkas untuk Kab. Kuningan, memudahkan distribusi ke sekolah dan dipakai sebagai latihan tertulis pendamping. (menutup gap 53 poin pada Media Cetak)."
+      },
+      {
+        "title": "Video pendek berseri, bisa diunduh",
+        "format": "Video 3-5 menit per topik",
+        "description": "Video ringkas per sub-topik untuk Kab. Kuningan, dirancang agar mudah diunduh dan ditonton ulang saat belajar mandiri. (menutup gap 25 poin pada Video Pembelajaran)."
+      },
+      {
+        "title": "Modul web interaktif ringan",
+        "format": "Modul HTML5 dengan kuis & umpan balik",
+        "description": "Modul interaktif untuk Kab. Kuningan yang menyertakan kuis singkat di tiap bagian supaya siswa langsung tahu sejauh mana paham materi. (menutup gap 22 poin pada Modul Interaktif / E-learning)."
+      }
+    ]
+  },
+  "kab-tasikmalaya": {
+    "region": "Kab. Tasikmalaya",
+    "generatedAt": "2026-09-02T00:00:00Z",
+    "model": "claude (seed manual, lihat catatan di README)",
+    "ideas": [
+      {
+        "title": "Modul web interaktif ringan",
+        "format": "Modul HTML5 dengan kuis & umpan balik",
+        "description": "Modul interaktif untuk Kab. Tasikmalaya yang menyertakan kuis singkat di tiap bagian supaya siswa langsung tahu sejauh mana paham materi. (menutup gap 32 poin pada Modul Interaktif / E-learning)."
+      },
+      {
+        "title": "Video pendek berseri, bisa diunduh",
+        "format": "Video 3-5 menit per topik",
+        "description": "Video ringkas per sub-topik untuk Kab. Tasikmalaya, dirancang agar mudah diunduh dan ditonton ulang saat belajar mandiri. (menutup gap 22 poin pada Video Pembelajaran)."
+      },
+      {
+        "title": "Game kuis edukasi berbasis browser",
+        "format": "Game HTML5 ringan, main langsung di browser",
+        "description": "Game edukasi sederhana untuk Kab. Tasikmalaya, dikemas sebagai kuis bertingkat agar belajar terasa lebih menyenangkan. (menutup gap 20 poin pada Game Edukasi & Simulasi)."
+      }
+    ]
+  },
+  "kota-cimahi": {
+    "region": "Kota Cimahi",
+    "generatedAt": "2026-09-02T00:00:00Z",
+    "model": "claude (seed manual, lihat catatan di README)",
+    "ideas": [
+      {
+        "title": "Game kuis edukasi berbasis browser",
+        "format": "Game HTML5 ringan, main langsung di browser",
+        "description": "Game edukasi sederhana untuk Kota Cimahi, dikemas sebagai kuis bertingkat agar belajar terasa lebih menyenangkan. (menutup gap 44 poin pada Game Edukasi & Simulasi)."
+      },
+      {
+        "title": "Video pendek berseri, bisa diunduh",
+        "format": "Video 3-5 menit per topik",
+        "description": "Video ringkas per sub-topik untuk Kota Cimahi, dirancang agar mudah diunduh dan ditonton ulang saat belajar mandiri. (menutup gap 24 poin pada Video Pembelajaran)."
+      },
+      {
+        "title": "Modul web interaktif ringan",
+        "format": "Modul HTML5 dengan kuis & umpan balik",
+        "description": "Modul interaktif untuk Kota Cimahi yang menyertakan kuis singkat di tiap bagian supaya siswa langsung tahu sejauh mana paham materi. (menutup gap 14 poin pada Modul Interaktif / E-learning)."
+      }
+    ]
+  },
+  "kab-pangandaran": {
+    "region": "Kab. Pangandaran",
+    "generatedAt": "2026-09-02T00:00:00Z",
+    "model": "claude (seed manual, lihat catatan di README)",
+    "ideas": [
+      {
+        "title": "Game kuis edukasi berbasis browser",
+        "format": "Game HTML5 ringan, main langsung di browser",
+        "description": "Game edukasi sederhana untuk Kab. Pangandaran, dikemas sebagai kuis bertingkat agar belajar terasa lebih menyenangkan. (menutup gap 38 poin pada Game Edukasi & Simulasi)."
+      },
+      {
+        "title": "Modul web interaktif ringan",
+        "format": "Modul HTML5 dengan kuis & umpan balik",
+        "description": "Modul interaktif untuk Kab. Pangandaran yang menyertakan kuis singkat di tiap bagian supaya siswa langsung tahu sejauh mana paham materi. (menutup gap 30 poin pada Modul Interaktif / E-learning)."
+      },
+      {
+        "title": "Video pendek berseri, bisa diunduh",
+        "format": "Video 3-5 menit per topik",
+        "description": "Video ringkas per sub-topik untuk Kab. Pangandaran, dirancang agar mudah diunduh dan ditonton ulang saat belajar mandiri. (menutup gap 27 poin pada Video Pembelajaran)."
+      }
+    ]
+  },
+  "kab-bandung-barat": {
+    "region": "Kab. Bandung Barat",
+    "generatedAt": "2026-09-02T00:00:00Z",
+    "model": "claude (seed manual, lihat catatan di README)",
+    "ideas": [
+      {
+        "title": "Modul web interaktif ringan",
+        "format": "Modul HTML5 dengan kuis & umpan balik",
+        "description": "Modul interaktif untuk Kab. Bandung Barat yang menyertakan kuis singkat di tiap bagian supaya siswa langsung tahu sejauh mana paham materi. (menutup gap 30 poin pada Modul Interaktif / E-learning)."
+      },
+      {
+        "title": "Video pendek berseri, bisa diunduh",
+        "format": "Video 3-5 menit per topik",
+        "description": "Video ringkas per sub-topik untuk Kab. Bandung Barat, dirancang agar mudah diunduh dan ditonton ulang saat belajar mandiri. (menutup gap 25 poin pada Video Pembelajaran)."
+      },
+      {
+        "title": "Audio pembelajaran berseri",
+        "format": "Audio 5-10 menit, format tanya-jawab",
+        "description": "Podcast singkat untuk Kab. Bandung Barat yang bisa didengarkan berulang, cocok untuk pengulangan materi di luar jam sekolah. (menutup gap 15 poin pada Podcast / Audio Pembelajaran)."
+      }
+    ]
+  },
+  "kab-ciamis": {
+    "region": "Kab. Ciamis",
+    "generatedAt": "2026-09-02T00:00:00Z",
+    "model": "claude (seed manual, lihat catatan di README)",
+    "ideas": [
+      {
+        "title": "Game kuis edukasi berbasis browser",
+        "format": "Game HTML5 ringan, main langsung di browser",
+        "description": "Game edukasi sederhana untuk Kab. Ciamis, dikemas sebagai kuis bertingkat agar belajar terasa lebih menyenangkan. (menutup gap 32 poin pada Game Edukasi & Simulasi)."
+      },
+      {
+        "title": "Modul web interaktif ringan",
+        "format": "Modul HTML5 dengan kuis & umpan balik",
+        "description": "Modul interaktif untuk Kab. Ciamis yang menyertakan kuis singkat di tiap bagian supaya siswa langsung tahu sejauh mana paham materi. (menutup gap 27 poin pada Modul Interaktif / E-learning)."
+      },
+      {
+        "title": "Audio pembelajaran berseri",
+        "format": "Audio 5-10 menit, format tanya-jawab",
+        "description": "Podcast singkat untuk Kab. Ciamis yang bisa didengarkan berulang, cocok untuk pengulangan materi di luar jam sekolah. (menutup gap 16 poin pada Podcast / Audio Pembelajaran)."
+      }
+    ]
+  },
+  "kab-majalengka": {
+    "region": "Kab. Majalengka",
+    "generatedAt": "2026-09-02T00:00:00Z",
+    "model": "claude (seed manual, lihat catatan di README)",
+    "ideas": [
+      {
+        "title": "Video pendek berseri, bisa diunduh",
+        "format": "Video 3-5 menit per topik",
+        "description": "Video ringkas per sub-topik untuk Kab. Majalengka, dirancang agar mudah diunduh dan ditonton ulang saat belajar mandiri. (menutup gap 29 poin pada Video Pembelajaran)."
+      },
+      {
+        "title": "Game kuis edukasi berbasis browser",
+        "format": "Game HTML5 ringan, main langsung di browser",
+        "description": "Game edukasi sederhana untuk Kab. Majalengka, dikemas sebagai kuis bertingkat agar belajar terasa lebih menyenangkan. (menutup gap 16 poin pada Game Edukasi & Simulasi)."
+      },
+      {
+        "title": "Modul web interaktif ringan",
+        "format": "Modul HTML5 dengan kuis & umpan balik",
+        "description": "Modul interaktif untuk Kab. Majalengka yang menyertakan kuis singkat di tiap bagian supaya siswa langsung tahu sejauh mana paham materi. (menutup gap 12 poin pada Modul Interaktif / E-learning)."
+      }
+    ]
+  },
+  "kab-sukabumi": {
+    "region": "Kab. Sukabumi",
+    "generatedAt": "2026-09-02T00:00:00Z",
+    "model": "claude (seed manual, lihat catatan di README)",
+    "ideas": [
+      {
+        "title": "Game kuis edukasi berbasis browser",
+        "format": "Game HTML5 ringan, main langsung di browser",
+        "description": "Game edukasi sederhana untuk Kab. Sukabumi, dikemas sebagai kuis bertingkat agar belajar terasa lebih menyenangkan. (menutup gap 37 poin pada Game Edukasi & Simulasi)."
+      },
+      {
+        "title": "Video pendek berseri, bisa diunduh",
+        "format": "Video 3-5 menit per topik",
+        "description": "Video ringkas per sub-topik untuk Kab. Sukabumi, dirancang agar mudah diunduh dan ditonton ulang saat belajar mandiri. (menutup gap 23 poin pada Video Pembelajaran)."
+      },
+      {
+        "title": "Audio pembelajaran berseri",
+        "format": "Audio 5-10 menit, format tanya-jawab",
+        "description": "Podcast singkat untuk Kab. Sukabumi yang bisa didengarkan berulang, cocok untuk pengulangan materi di luar jam sekolah. (menutup gap 20 poin pada Podcast / Audio Pembelajaran)."
+      }
+    ]
+  },
+  "kota-depok": {
+    "region": "Kota Depok",
+    "generatedAt": "2026-09-02T00:00:00Z",
+    "model": "claude (seed manual, lihat catatan di README)",
+    "ideas": [
+      {
+        "title": "Video pendek berseri, bisa diunduh",
+        "format": "Video 3-5 menit per topik",
+        "description": "Video ringkas per sub-topik untuk Kota Depok, dirancang agar mudah diunduh dan ditonton ulang saat belajar mandiri. (menutup gap 41 poin pada Video Pembelajaran)."
+      },
+      {
+        "title": "Audio pembelajaran berseri",
+        "format": "Audio 5-10 menit, format tanya-jawab",
+        "description": "Podcast singkat untuk Kota Depok yang bisa didengarkan berulang, cocok untuk pengulangan materi di luar jam sekolah. (menutup gap 33 poin pada Podcast / Audio Pembelajaran)."
+      },
+      {
+        "title": "Game kuis edukasi berbasis browser",
+        "format": "Game HTML5 ringan, main langsung di browser",
+        "description": "Game edukasi sederhana untuk Kota Depok, dikemas sebagai kuis bertingkat agar belajar terasa lebih menyenangkan. (menutup gap 12 poin pada Game Edukasi & Simulasi)."
+      }
+    ]
+  },
+  "kota-tasikmalaya": {
+    "region": "Kota Tasikmalaya",
+    "generatedAt": "2026-09-02T00:00:00Z",
+    "model": "claude (seed manual, lihat catatan di README)",
+    "ideas": [
+      {
+        "title": "Audio pembelajaran berseri",
+        "format": "Audio 5-10 menit, format tanya-jawab",
+        "description": "Podcast singkat untuk Kota Tasikmalaya yang bisa didengarkan berulang, cocok untuk pengulangan materi di luar jam sekolah. (menutup gap 27 poin pada Podcast / Audio Pembelajaran)."
+      },
+      {
+        "title": "Game kuis edukasi berbasis browser",
+        "format": "Game HTML5 ringan, main langsung di browser",
+        "description": "Game edukasi sederhana untuk Kota Tasikmalaya, dikemas sebagai kuis bertingkat agar belajar terasa lebih menyenangkan. (menutup gap 27 poin pada Game Edukasi & Simulasi)."
+      },
+      {
+        "title": "Video pendek berseri, bisa diunduh",
+        "format": "Video 3-5 menit per topik",
+        "description": "Video ringkas per sub-topik untuk Kota Tasikmalaya, dirancang agar mudah diunduh dan ditonton ulang saat belajar mandiri. (menutup gap 12 poin pada Video Pembelajaran)."
+      }
+    ]
+  },
+  "kab-garut": {
+    "region": "Kab. Garut",
+    "generatedAt": "2026-09-02T00:00:00Z",
+    "model": "claude (seed manual, lihat catatan di README)",
+    "ideas": [
+      {
+        "title": "Modul web interaktif ringan",
+        "format": "Modul HTML5 dengan kuis & umpan balik",
+        "description": "Modul interaktif untuk Kab. Garut yang menyertakan kuis singkat di tiap bagian supaya siswa langsung tahu sejauh mana paham materi. (menutup gap 58 poin pada Modul Interaktif / E-learning)."
+      },
+      {
+        "title": "Lembar kerja & modul cetak ringkas",
+        "format": "Booklet A5, 8-12 halaman per topik",
+        "description": "Materi cetak ringkas untuk Kab. Garut, memudahkan distribusi ke sekolah dan dipakai sebagai latihan tertulis pendamping. (menutup gap 24 poin pada Media Cetak)."
+      },
+      {
+        "title": "Game kuis edukasi berbasis browser",
+        "format": "Game HTML5 ringan, main langsung di browser",
+        "description": "Game edukasi sederhana untuk Kab. Garut, dikemas sebagai kuis bertingkat agar belajar terasa lebih menyenangkan. (menutup gap 3 poin pada Game Edukasi & Simulasi)."
+      }
+    ]
+  },
+  "kota-cirebon": {
+    "region": "Kota Cirebon",
+    "generatedAt": "2026-09-02T00:00:00Z",
+    "model": "claude (seed manual, lihat catatan di README)",
+    "ideas": [
+      {
+        "title": "Modul web interaktif ringan",
+        "format": "Modul HTML5 dengan kuis & umpan balik",
+        "description": "Modul interaktif untuk Kota Cirebon yang menyertakan kuis singkat di tiap bagian supaya siswa langsung tahu sejauh mana paham materi. (menutup gap 37 poin pada Modul Interaktif / E-learning)."
+      },
+      {
+        "title": "Video pendek berseri, bisa diunduh",
+        "format": "Video 3-5 menit per topik",
+        "description": "Video ringkas per sub-topik untuk Kota Cirebon, dirancang agar mudah diunduh dan ditonton ulang saat belajar mandiri. (menutup gap 27 poin pada Video Pembelajaran)."
+      },
+      {
+        "title": "Audio pembelajaran berseri",
+        "format": "Audio 5-10 menit, format tanya-jawab",
+        "description": "Podcast singkat untuk Kota Cirebon yang bisa didengarkan berulang, cocok untuk pengulangan materi di luar jam sekolah. (menutup gap 4 poin pada Podcast / Audio Pembelajaran)."
+      }
+    ]
+  },
+  "kota-sukabumi": {
+    "region": "Kota Sukabumi",
+    "generatedAt": "2026-09-02T00:00:00Z",
+    "model": "claude (seed manual, lihat catatan di README)",
+    "ideas": [
+      {
+        "title": "Lembar kerja & modul cetak ringkas",
+        "format": "Booklet A5, 8-12 halaman per topik",
+        "description": "Materi cetak ringkas untuk Kota Sukabumi, memudahkan distribusi ke sekolah dan dipakai sebagai latihan tertulis pendamping. (menutup gap 19 poin pada Media Cetak)."
+      },
+      {
+        "title": "Video pendek berseri, bisa diunduh",
+        "format": "Video 3-5 menit per topik",
+        "description": "Video ringkas per sub-topik untuk Kota Sukabumi, dirancang agar mudah diunduh dan ditonton ulang saat belajar mandiri. (menutup gap 17 poin pada Video Pembelajaran)."
+      },
+      {
+        "title": "Audio pembelajaran berseri",
+        "format": "Audio 5-10 menit, format tanya-jawab",
+        "description": "Podcast singkat untuk Kota Sukabumi yang bisa didengarkan berulang, cocok untuk pengulangan materi di luar jam sekolah. (menutup gap 7 poin pada Podcast / Audio Pembelajaran)."
+      }
+    ]
+  },
+  "kota-bogor": {
+    "region": "Kota Bogor",
+    "generatedAt": "2026-09-02T00:00:00Z",
+    "model": "claude (seed manual, lihat catatan di README)",
+    "ideas": [
+      {
+        "title": "Video pendek berseri, bisa diunduh",
+        "format": "Video 3-5 menit per topik",
+        "description": "Video ringkas per sub-topik untuk Kota Bogor, dirancang agar mudah diunduh dan ditonton ulang saat belajar mandiri. (menutup gap 29 poin pada Video Pembelajaran)."
+      },
+      {
+        "title": "Audio pembelajaran berseri",
+        "format": "Audio 5-10 menit, format tanya-jawab",
+        "description": "Podcast singkat untuk Kota Bogor yang bisa didengarkan berulang, cocok untuk pengulangan materi di luar jam sekolah. (menutup gap 8 poin pada Podcast / Audio Pembelajaran)."
+      },
+      {
+        "title": "Modul web interaktif ringan",
+        "format": "Modul HTML5 dengan kuis & umpan balik",
+        "description": "Modul interaktif untuk Kota Bogor yang menyertakan kuis singkat di tiap bagian supaya siswa langsung tahu sejauh mana paham materi. (menutup gap 7 poin pada Modul Interaktif / E-learning)."
+      }
+    ]
+  },
+  "kota-bandung": {
+    "region": "Kota Bandung",
+    "generatedAt": "2026-09-02T00:00:00Z",
+    "model": "claude (seed manual, lihat catatan di README)",
+    "ideas": [
+      {
+        "title": "Lembar kerja & modul cetak ringkas",
+        "format": "Booklet A5, 8-12 halaman per topik",
+        "description": "Materi cetak ringkas untuk Kota Bandung, memudahkan distribusi ke sekolah dan dipakai sebagai latihan tertulis pendamping. (menutup gap 31 poin pada Media Cetak)."
+      },
+      {
+        "title": "Audio pembelajaran berseri",
+        "format": "Audio 5-10 menit, format tanya-jawab",
+        "description": "Podcast singkat untuk Kota Bandung yang bisa didengarkan berulang, cocok untuk pengulangan materi di luar jam sekolah. (menutup gap 16 poin pada Podcast / Audio Pembelajaran)."
+      },
+      {
+        "title": "Video pendek berseri, bisa diunduh",
+        "format": "Video 3-5 menit per topik",
+        "description": "Video ringkas per sub-topik untuk Kota Bandung, dirancang agar mudah diunduh dan ditonton ulang saat belajar mandiri. (menutup gap 2 poin pada Video Pembelajaran)."
+      }
+    ]
+  },
+  "kota-banjar": {
+    "region": "Kota Banjar",
+    "generatedAt": "2026-09-02T00:00:00Z",
+    "model": "claude (seed manual, lihat catatan di README)",
+    "ideas": [
+      {
+        "title": "Video pendek berseri, bisa diunduh",
+        "format": "Video 3-5 menit per topik",
+        "description": "Video ringkas per sub-topik untuk Kota Banjar, dirancang agar mudah diunduh dan ditonton ulang saat belajar mandiri. (menutup gap 18 poin pada Video Pembelajaran)."
+      },
+      {
+        "title": "Audio pembelajaran berseri",
+        "format": "Audio 5-10 menit, format tanya-jawab",
+        "description": "Podcast singkat untuk Kota Banjar yang bisa didengarkan berulang, cocok untuk pengulangan materi di luar jam sekolah. (menutup gap 17 poin pada Podcast / Audio Pembelajaran)."
+      },
+      {
+        "title": "Game kuis edukasi berbasis browser",
+        "format": "Game HTML5 ringan, main langsung di browser",
+        "description": "Game edukasi sederhana untuk Kota Banjar, dikemas sebagai kuis bertingkat agar belajar terasa lebih menyenangkan. (menutup gap 15 poin pada Game Edukasi & Simulasi)."
+      }
+    ]
+  },
+  "kota-bekasi": {
+    "region": "Kota Bekasi",
+    "generatedAt": "2026-09-02T00:00:00Z",
+    "model": "claude (seed manual, lihat catatan di README)",
+    "ideas": [
+      {
+        "title": "Audio pembelajaran berseri",
+        "format": "Audio 5-10 menit, format tanya-jawab",
+        "description": "Podcast singkat untuk Kota Bekasi yang bisa didengarkan berulang, cocok untuk pengulangan materi di luar jam sekolah. (menutup gap 14 poin pada Podcast / Audio Pembelajaran)."
+      },
+      {
+        "title": "Video pendek berseri, bisa diunduh",
+        "format": "Video 3-5 menit per topik",
+        "description": "Video ringkas per sub-topik untuk Kota Bekasi, dirancang agar mudah diunduh dan ditonton ulang saat belajar mandiri. (menutup gap 0 poin pada Video Pembelajaran)."
+      },
+      {
+        "title": "Modul web interaktif ringan",
+        "format": "Modul HTML5 dengan kuis & umpan balik",
+        "description": "Modul interaktif untuk Kota Bekasi yang menyertakan kuis singkat di tiap bagian supaya siswa langsung tahu sejauh mana paham materi. (menutup gap -1 poin pada Modul Interaktif / E-learning)."
+      }
+    ]
+  }
+}

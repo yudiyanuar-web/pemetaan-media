@@ -1,0 +1,1070 @@
+{
+  "meta": {
+    "judul": "Pemetaan Media Pembelajaran Provinsi Jawa Barat",
+    "versi": "1.0 (prototipe)",
+    "diperbarui": "2024-11",
+    "catatan": "Data pada file ini adalah DATA CONTOH untuk keperluan prototipe tampilan. Ganti dengan data riil sebelum dipublikasikan."
+  },
+  "mediaTypes": [
+    "Video Pembelajaran",
+    "Modul Interaktif / E-learning",
+    "Media Cetak",
+    "Podcast / Audio Pembelajaran",
+    "Game Edukasi & Simulasi"
+  ],
+  "regions": [
+    {
+      "id": "kab-purwakarta",
+      "name": "Kab. Purwakarta",
+      "avgNeed": 75,
+      "avgUsage": 40,
+      "gap": 35,
+      "media": [
+        {
+          "type": "Game Edukasi & Simulasi",
+          "need": 91,
+          "usage": 30,
+          "gap": 61
+        },
+        {
+          "type": "Modul Interaktif / E-learning",
+          "need": 67,
+          "usage": 33,
+          "gap": 34
+        },
+        {
+          "type": "Media Cetak",
+          "need": 91,
+          "usage": 60,
+          "gap": 31
+        },
+        {
+          "type": "Video Pembelajaran",
+          "need": 70,
+          "usage": 45,
+          "gap": 25
+        },
+        {
+          "type": "Podcast / Audio Pembelajaran",
+          "need": 55,
+          "usage": 30,
+          "gap": 25
+        }
+      ]
+    },
+    {
+      "id": "kab-karawang",
+      "name": "Kab. Karawang",
+      "avgNeed": 74,
+      "avgUsage": 40,
+      "gap": 34,
+      "media": [
+        {
+          "type": "Podcast / Audio Pembelajaran",
+          "need": 76,
+          "usage": 29,
+          "gap": 47
+        },
+        {
+          "type": "Video Pembelajaran",
+          "need": 72,
+          "usage": 34,
+          "gap": 38
+        },
+        {
+          "type": "Media Cetak",
+          "need": 66,
+          "usage": 28,
+          "gap": 38
+        },
+        {
+          "type": "Game Edukasi & Simulasi",
+          "need": 81,
+          "usage": 48,
+          "gap": 33
+        },
+        {
+          "type": "Modul Interaktif / E-learning",
+          "need": 73,
+          "usage": 61,
+          "gap": 12
+        }
+      ]
+    },
+    {
+      "id": "kab-cianjur",
+      "name": "Kab. Cianjur",
+      "avgNeed": 76,
+      "avgUsage": 43,
+      "gap": 33,
+      "media": [
+        {
+          "type": "Video Pembelajaran",
+          "need": 91,
+          "usage": 41,
+          "gap": 50
+        },
+        {
+          "type": "Podcast / Audio Pembelajaran",
+          "need": 82,
+          "usage": 40,
+          "gap": 42
+        },
+        {
+          "type": "Game Edukasi & Simulasi",
+          "need": 86,
+          "usage": 55,
+          "gap": 31
+        },
+        {
+          "type": "Modul Interaktif / E-learning",
+          "need": 61,
+          "usage": 34,
+          "gap": 27
+        },
+        {
+          "type": "Media Cetak",
+          "need": 60,
+          "usage": 44,
+          "gap": 16
+        }
+      ]
+    },
+    {
+      "id": "kab-indramayu",
+      "name": "Kab. Indramayu",
+      "avgNeed": 72,
+      "avgUsage": 41,
+      "gap": 31,
+      "media": [
+        {
+          "type": "Modul Interaktif / E-learning",
+          "need": 78,
+          "usage": 26,
+          "gap": 52
+        },
+        {
+          "type": "Podcast / Audio Pembelajaran",
+          "need": 93,
+          "usage": 45,
+          "gap": 48
+        },
+        {
+          "type": "Video Pembelajaran",
+          "need": 72,
+          "usage": 47,
+          "gap": 25
+        },
+        {
+          "type": "Media Cetak",
+          "need": 61,
+          "usage": 46,
+          "gap": 15
+        },
+        {
+          "type": "Game Edukasi & Simulasi",
+          "need": 56,
+          "usage": 42,
+          "gap": 14
+        }
+      ]
+    },
+    {
+      "id": "kab-bogor",
+      "name": "Kab. Bogor",
+      "avgNeed": 73,
+      "avgUsage": 45,
+      "gap": 28,
+      "media": [
+        {
+          "type": "Podcast / Audio Pembelajaran",
+          "need": 80,
+          "usage": 25,
+          "gap": 55
+        },
+        {
+          "type": "Modul Interaktif / E-learning",
+          "need": 70,
+          "usage": 43,
+          "gap": 27
+        },
+        {
+          "type": "Media Cetak",
+          "need": 80,
+          "usage": 58,
+          "gap": 22
+        },
+        {
+          "type": "Video Pembelajaran",
+          "need": 81,
+          "usage": 61,
+          "gap": 20
+        },
+        {
+          "type": "Game Edukasi & Simulasi",
+          "need": 55,
+          "usage": 38,
+          "gap": 17
+        }
+      ]
+    },
+    {
+      "id": "kab-sumedang",
+      "name": "Kab. Sumedang",
+      "avgNeed": 65,
+      "avgUsage": 37,
+      "gap": 28,
+      "media": [
+        {
+          "type": "Podcast / Audio Pembelajaran",
+          "need": 85,
+          "usage": 33,
+          "gap": 52
+        },
+        {
+          "type": "Modul Interaktif / E-learning",
+          "need": 67,
+          "usage": 33,
+          "gap": 34
+        },
+        {
+          "type": "Video Pembelajaran",
+          "need": 53,
+          "usage": 31,
+          "gap": 22
+        },
+        {
+          "type": "Game Edukasi & Simulasi",
+          "need": 68,
+          "usage": 46,
+          "gap": 22
+        },
+        {
+          "type": "Media Cetak",
+          "need": 51,
+          "usage": 44,
+          "gap": 7
+        }
+      ]
+    },
+    {
+      "id": "kab-bandung",
+      "name": "Kab. Bandung",
+      "avgNeed": 73,
+      "avgUsage": 46,
+      "gap": 27,
+      "media": [
+        {
+          "type": "Media Cetak",
+          "need": 91,
+          "usage": 32,
+          "gap": 59
+        },
+        {
+          "type": "Modul Interaktif / E-learning",
+          "need": 86,
+          "usage": 41,
+          "gap": 45
+        },
+        {
+          "type": "Podcast / Audio Pembelajaran",
+          "need": 56,
+          "usage": 32,
+          "gap": 24
+        },
+        {
+          "type": "Video Pembelajaran",
+          "need": 76,
+          "usage": 65,
+          "gap": 11
+        },
+        {
+          "type": "Game Edukasi & Simulasi",
+          "need": 54,
+          "usage": 62,
+          "gap": -8
+        }
+      ]
+    },
+    {
+      "id": "kab-cirebon",
+      "name": "Kab. Cirebon",
+      "avgNeed": 72,
+      "avgUsage": 46,
+      "gap": 26,
+      "media": [
+        {
+          "type": "Podcast / Audio Pembelajaran",
+          "need": 94,
+          "usage": 42,
+          "gap": 52
+        },
+        {
+          "type": "Game Edukasi & Simulasi",
+          "need": 82,
+          "usage": 46,
+          "gap": 36
+        },
+        {
+          "type": "Media Cetak",
+          "need": 71,
+          "usage": 39,
+          "gap": 32
+        },
+        {
+          "type": "Modul Interaktif / E-learning",
+          "need": 60,
+          "usage": 40,
+          "gap": 20
+        },
+        {
+          "type": "Video Pembelajaran",
+          "need": 54,
+          "usage": 62,
+          "gap": -8
+        }
+      ]
+    },
+    {
+      "id": "kab-subang",
+      "name": "Kab. Subang",
+      "avgNeed": 75,
+      "avgUsage": 52,
+      "gap": 23,
+      "media": [
+        {
+          "type": "Media Cetak",
+          "need": 75,
+          "usage": 27,
+          "gap": 48
+        },
+        {
+          "type": "Podcast / Audio Pembelajaran",
+          "need": 94,
+          "usage": 64,
+          "gap": 30
+        },
+        {
+          "type": "Modul Interaktif / E-learning",
+          "need": 85,
+          "usage": 63,
+          "gap": 22
+        },
+        {
+          "type": "Video Pembelajaran",
+          "need": 63,
+          "usage": 52,
+          "gap": 11
+        },
+        {
+          "type": "Game Edukasi & Simulasi",
+          "need": 60,
+          "usage": 52,
+          "gap": 8
+        }
+      ]
+    },
+    {
+      "id": "kab-bekasi",
+      "name": "Kab. Bekasi",
+      "avgNeed": 69,
+      "avgUsage": 47,
+      "gap": 22,
+      "media": [
+        {
+          "type": "Media Cetak",
+          "need": 94,
+          "usage": 44,
+          "gap": 50
+        },
+        {
+          "type": "Game Edukasi & Simulasi",
+          "need": 80,
+          "usage": 42,
+          "gap": 38
+        },
+        {
+          "type": "Video Pembelajaran",
+          "need": 55,
+          "usage": 31,
+          "gap": 24
+        },
+        {
+          "type": "Modul Interaktif / E-learning",
+          "need": 58,
+          "usage": 55,
+          "gap": 3
+        },
+        {
+          "type": "Podcast / Audio Pembelajaran",
+          "need": 58,
+          "usage": 63,
+          "gap": -5
+        }
+      ]
+    },
+    {
+      "id": "kab-kuningan",
+      "name": "Kab. Kuningan",
+      "avgNeed": 72,
+      "avgUsage": 50,
+      "gap": 22,
+      "media": [
+        {
+          "type": "Media Cetak",
+          "need": 79,
+          "usage": 26,
+          "gap": 53
+        },
+        {
+          "type": "Video Pembelajaran",
+          "need": 71,
+          "usage": 46,
+          "gap": 25
+        },
+        {
+          "type": "Modul Interaktif / E-learning",
+          "need": 86,
+          "usage": 64,
+          "gap": 22
+        },
+        {
+          "type": "Podcast / Audio Pembelajaran",
+          "need": 62,
+          "usage": 53,
+          "gap": 9
+        },
+        {
+          "type": "Game Edukasi & Simulasi",
+          "need": 61,
+          "usage": 63,
+          "gap": -2
+        }
+      ]
+    },
+    {
+      "id": "kab-tasikmalaya",
+      "name": "Kab. Tasikmalaya",
+      "avgNeed": 69,
+      "avgUsage": 50,
+      "gap": 19,
+      "media": [
+        {
+          "type": "Modul Interaktif / E-learning",
+          "need": 64,
+          "usage": 32,
+          "gap": 32
+        },
+        {
+          "type": "Video Pembelajaran",
+          "need": 85,
+          "usage": 63,
+          "gap": 22
+        },
+        {
+          "type": "Game Edukasi & Simulasi",
+          "need": 52,
+          "usage": 32,
+          "gap": 20
+        },
+        {
+          "type": "Media Cetak",
+          "need": 68,
+          "usage": 57,
+          "gap": 11
+        },
+        {
+          "type": "Podcast / Audio Pembelajaran",
+          "need": 76,
+          "usage": 65,
+          "gap": 11
+        }
+      ]
+    },
+    {
+      "id": "kota-cimahi",
+      "name": "Kota Cimahi",
+      "avgNeed": 77,
+      "avgUsage": 58,
+      "gap": 19,
+      "media": [
+        {
+          "type": "Game Edukasi & Simulasi",
+          "need": 91,
+          "usage": 47,
+          "gap": 44
+        },
+        {
+          "type": "Video Pembelajaran",
+          "need": 75,
+          "usage": 51,
+          "gap": 24
+        },
+        {
+          "type": "Modul Interaktif / E-learning",
+          "need": 89,
+          "usage": 75,
+          "gap": 14
+        },
+        {
+          "type": "Media Cetak",
+          "need": 67,
+          "usage": 53,
+          "gap": 14
+        },
+        {
+          "type": "Podcast / Audio Pembelajaran",
+          "need": 63,
+          "usage": 66,
+          "gap": -3
+        }
+      ]
+    },
+    {
+      "id": "kab-pangandaran",
+      "name": "Kab. Pangandaran",
+      "avgNeed": 62,
+      "avgUsage": 44,
+      "gap": 18,
+      "media": [
+        {
+          "type": "Game Edukasi & Simulasi",
+          "need": 94,
+          "usage": 56,
+          "gap": 38
+        },
+        {
+          "type": "Modul Interaktif / E-learning",
+          "need": 56,
+          "usage": 26,
+          "gap": 30
+        },
+        {
+          "type": "Video Pembelajaran",
+          "need": 52,
+          "usage": 25,
+          "gap": 27
+        },
+        {
+          "type": "Media Cetak",
+          "need": 52,
+          "usage": 54,
+          "gap": -2
+        },
+        {
+          "type": "Podcast / Audio Pembelajaran",
+          "need": 57,
+          "usage": 59,
+          "gap": -2
+        }
+      ]
+    },
+    {
+      "id": "kab-bandung-barat",
+      "name": "Kab. Bandung Barat",
+      "avgNeed": 65,
+      "avgUsage": 48,
+      "gap": 17,
+      "media": [
+        {
+          "type": "Modul Interaktif / E-learning",
+          "need": 63,
+          "usage": 33,
+          "gap": 30
+        },
+        {
+          "type": "Video Pembelajaran",
+          "need": 86,
+          "usage": 61,
+          "gap": 25
+        },
+        {
+          "type": "Podcast / Audio Pembelajaran",
+          "need": 69,
+          "usage": 54,
+          "gap": 15
+        },
+        {
+          "type": "Media Cetak",
+          "need": 50,
+          "usage": 38,
+          "gap": 12
+        },
+        {
+          "type": "Game Edukasi & Simulasi",
+          "need": 57,
+          "usage": 53,
+          "gap": 4
+        }
+      ]
+    },
+    {
+      "id": "kab-ciamis",
+      "name": "Kab. Ciamis",
+      "avgNeed": 69,
+      "avgUsage": 52,
+      "gap": 17,
+      "media": [
+        {
+          "type": "Game Edukasi & Simulasi",
+          "need": 75,
+          "usage": 43,
+          "gap": 32
+        },
+        {
+          "type": "Modul Interaktif / E-learning",
+          "need": 64,
+          "usage": 37,
+          "gap": 27
+        },
+        {
+          "type": "Podcast / Audio Pembelajaran",
+          "need": 75,
+          "usage": 59,
+          "gap": 16
+        },
+        {
+          "type": "Media Cetak",
+          "need": 66,
+          "usage": 54,
+          "gap": 12
+        },
+        {
+          "type": "Video Pembelajaran",
+          "need": 66,
+          "usage": 65,
+          "gap": 1
+        }
+      ]
+    },
+    {
+      "id": "kab-majalengka",
+      "name": "Kab. Majalengka",
+      "avgNeed": 68,
+      "avgUsage": 53,
+      "gap": 15,
+      "media": [
+        {
+          "type": "Video Pembelajaran",
+          "need": 85,
+          "usage": 56,
+          "gap": 29
+        },
+        {
+          "type": "Game Edukasi & Simulasi",
+          "need": 58,
+          "usage": 42,
+          "gap": 16
+        },
+        {
+          "type": "Modul Interaktif / E-learning",
+          "need": 67,
+          "usage": 55,
+          "gap": 12
+        },
+        {
+          "type": "Media Cetak",
+          "need": 74,
+          "usage": 64,
+          "gap": 10
+        },
+        {
+          "type": "Podcast / Audio Pembelajaran",
+          "need": 54,
+          "usage": 50,
+          "gap": 4
+        }
+      ]
+    },
+    {
+      "id": "kab-sukabumi",
+      "name": "Kab. Sukabumi",
+      "avgNeed": 71,
+      "avgUsage": 56,
+      "gap": 15,
+      "media": [
+        {
+          "type": "Game Edukasi & Simulasi",
+          "need": 86,
+          "usage": 49,
+          "gap": 37
+        },
+        {
+          "type": "Video Pembelajaran",
+          "need": 87,
+          "usage": 64,
+          "gap": 23
+        },
+        {
+          "type": "Podcast / Audio Pembelajaran",
+          "need": 72,
+          "usage": 52,
+          "gap": 20
+        },
+        {
+          "type": "Modul Interaktif / E-learning",
+          "need": 59,
+          "usage": 60,
+          "gap": -1
+        },
+        {
+          "type": "Media Cetak",
+          "need": 51,
+          "usage": 53,
+          "gap": -2
+        }
+      ]
+    },
+    {
+      "id": "kota-depok",
+      "name": "Kota Depok",
+      "avgNeed": 76,
+      "avgUsage": 61,
+      "gap": 15,
+      "media": [
+        {
+          "type": "Video Pembelajaran",
+          "need": 95,
+          "usage": 54,
+          "gap": 41
+        },
+        {
+          "type": "Podcast / Audio Pembelajaran",
+          "need": 94,
+          "usage": 61,
+          "gap": 33
+        },
+        {
+          "type": "Game Edukasi & Simulasi",
+          "need": 85,
+          "usage": 73,
+          "gap": 12
+        },
+        {
+          "type": "Media Cetak",
+          "need": 51,
+          "usage": 46,
+          "gap": 5
+        },
+        {
+          "type": "Modul Interaktif / E-learning",
+          "need": 54,
+          "usage": 69,
+          "gap": -15
+        }
+      ]
+    },
+    {
+      "id": "kota-tasikmalaya",
+      "name": "Kota Tasikmalaya",
+      "avgNeed": 76,
+      "avgUsage": 61,
+      "gap": 15,
+      "media": [
+        {
+          "type": "Podcast / Audio Pembelajaran",
+          "need": 73,
+          "usage": 46,
+          "gap": 27
+        },
+        {
+          "type": "Game Edukasi & Simulasi",
+          "need": 93,
+          "usage": 66,
+          "gap": 27
+        },
+        {
+          "type": "Video Pembelajaran",
+          "need": 74,
+          "usage": 62,
+          "gap": 12
+        },
+        {
+          "type": "Modul Interaktif / E-learning",
+          "need": 63,
+          "usage": 59,
+          "gap": 4
+        },
+        {
+          "type": "Media Cetak",
+          "need": 76,
+          "usage": 73,
+          "gap": 3
+        }
+      ]
+    },
+    {
+      "id": "kab-garut",
+      "name": "Kab. Garut",
+      "avgNeed": 59,
+      "avgUsage": 45,
+      "gap": 14,
+      "media": [
+        {
+          "type": "Modul Interaktif / E-learning",
+          "need": 86,
+          "usage": 28,
+          "gap": 58
+        },
+        {
+          "type": "Media Cetak",
+          "need": 52,
+          "usage": 28,
+          "gap": 24
+        },
+        {
+          "type": "Game Edukasi & Simulasi",
+          "need": 55,
+          "usage": 52,
+          "gap": 3
+        },
+        {
+          "type": "Podcast / Audio Pembelajaran",
+          "need": 53,
+          "usage": 56,
+          "gap": -3
+        },
+        {
+          "type": "Video Pembelajaran",
+          "need": 50,
+          "usage": 59,
+          "gap": -9
+        }
+      ]
+    },
+    {
+      "id": "kota-cirebon",
+      "name": "Kota Cirebon",
+      "avgNeed": 73,
+      "avgUsage": 65,
+      "gap": 8,
+      "media": [
+        {
+          "type": "Modul Interaktif / E-learning",
+          "need": 89,
+          "usage": 52,
+          "gap": 37
+        },
+        {
+          "type": "Video Pembelajaran",
+          "need": 80,
+          "usage": 53,
+          "gap": 27
+        },
+        {
+          "type": "Podcast / Audio Pembelajaran",
+          "need": 58,
+          "usage": 54,
+          "gap": 4
+        },
+        {
+          "type": "Media Cetak",
+          "need": 74,
+          "usage": 84,
+          "gap": -10
+        },
+        {
+          "type": "Game Edukasi & Simulasi",
+          "need": 65,
+          "usage": 82,
+          "gap": -17
+        }
+      ]
+    },
+    {
+      "id": "kota-sukabumi",
+      "name": "Kota Sukabumi",
+      "avgNeed": 74,
+      "avgUsage": 66,
+      "gap": 8,
+      "media": [
+        {
+          "type": "Media Cetak",
+          "need": 83,
+          "usage": 64,
+          "gap": 19
+        },
+        {
+          "type": "Video Pembelajaran",
+          "need": 92,
+          "usage": 75,
+          "gap": 17
+        },
+        {
+          "type": "Podcast / Audio Pembelajaran",
+          "need": 55,
+          "usage": 48,
+          "gap": 7
+        },
+        {
+          "type": "Game Edukasi & Simulasi",
+          "need": 68,
+          "usage": 67,
+          "gap": 1
+        },
+        {
+          "type": "Modul Interaktif / E-learning",
+          "need": 71,
+          "usage": 74,
+          "gap": -3
+        }
+      ]
+    },
+    {
+      "id": "kota-bogor",
+      "name": "Kota Bogor",
+      "avgNeed": 75,
+      "avgUsage": 69,
+      "gap": 6,
+      "media": [
+        {
+          "type": "Video Pembelajaran",
+          "need": 92,
+          "usage": 63,
+          "gap": 29
+        },
+        {
+          "type": "Podcast / Audio Pembelajaran",
+          "need": 76,
+          "usage": 68,
+          "gap": 8
+        },
+        {
+          "type": "Modul Interaktif / E-learning",
+          "need": 82,
+          "usage": 75,
+          "gap": 7
+        },
+        {
+          "type": "Game Edukasi & Simulasi",
+          "need": 54,
+          "usage": 56,
+          "gap": -2
+        },
+        {
+          "type": "Media Cetak",
+          "need": 72,
+          "usage": 84,
+          "gap": -12
+        }
+      ]
+    },
+    {
+      "id": "kota-bandung",
+      "name": "Kota Bandung",
+      "avgNeed": 76,
+      "avgUsage": 71,
+      "gap": 5,
+      "media": [
+        {
+          "type": "Media Cetak",
+          "need": 85,
+          "usage": 54,
+          "gap": 31
+        },
+        {
+          "type": "Podcast / Audio Pembelajaran",
+          "need": 94,
+          "usage": 78,
+          "gap": 16
+        },
+        {
+          "type": "Video Pembelajaran",
+          "need": 82,
+          "usage": 80,
+          "gap": 2
+        },
+        {
+          "type": "Modul Interaktif / E-learning",
+          "need": 59,
+          "usage": 58,
+          "gap": 1
+        },
+        {
+          "type": "Game Edukasi & Simulasi",
+          "need": 60,
+          "usage": 85,
+          "gap": -25
+        }
+      ]
+    },
+    {
+      "id": "kota-banjar",
+      "name": "Kota Banjar",
+      "avgNeed": 73,
+      "avgUsage": 68,
+      "gap": 5,
+      "media": [
+        {
+          "type": "Video Pembelajaran",
+          "need": 75,
+          "usage": 57,
+          "gap": 18
+        },
+        {
+          "type": "Podcast / Audio Pembelajaran",
+          "need": 77,
+          "usage": 60,
+          "gap": 17
+        },
+        {
+          "type": "Game Edukasi & Simulasi",
+          "need": 94,
+          "usage": 79,
+          "gap": 15
+        },
+        {
+          "type": "Media Cetak",
+          "need": 57,
+          "usage": 66,
+          "gap": -9
+        },
+        {
+          "type": "Modul Interaktif / E-learning",
+          "need": 61,
+          "usage": 77,
+          "gap": -16
+        }
+      ]
+    },
+    {
+      "id": "kota-bekasi",
+      "name": "Kota Bekasi",
+      "avgNeed": 60,
+      "avgUsage": 59,
+      "gap": 1,
+      "media": [
+        {
+          "type": "Podcast / Audio Pembelajaran",
+          "need": 62,
+          "usage": 48,
+          "gap": 14
+        },
+        {
+          "type": "Video Pembelajaran",
+          "need": 64,
+          "usage": 64,
+          "gap": 0
+        },
+        {
+          "type": "Modul Interaktif / E-learning",
+          "need": 62,
+          "usage": 63,
+          "gap": -1
+        },
+        {
+          "type": "Media Cetak",
+          "need": 54,
+          "usage": 60,
+          "gap": -6
+        },
+        {
+          "type": "Game Edukasi & Simulasi",
+          "need": 56,
+          "usage": 62,
+          "gap": -6
+        }
+      ]
+    }
+  ]
+}
